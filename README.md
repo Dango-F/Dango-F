@@ -12,7 +12,6 @@
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2094F3&center=true&vCenter=true&width=435&lines=Hi+there,+I'm+Dango-F!;Focusing+on+Spatial+Intelligence;Exploring+Embodied+Intelligence" alt="Typing SVG" />
 </a>
-
 <br/>
 
 <!-- GitHub 统计卡片 - 自动适配明暗主题 -->
