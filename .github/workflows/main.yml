@@ -34,17 +34,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # 使用 cicirello/user-statistician 生成 GitHub 统计卡片 SVG
-      # 此 Action 直接使用 GitHub API 生成 SVG,不依赖外部服务
-      - name: Generate GitHub Stats SVG
-        uses: cicirello/user-statistician@v1
-        with:
-          colors: tokyonight
-          include-title: false
-          image-file: dist/github-stats.svg
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
       # push the content of <build_dir> to a branch
       # the content will be available at https://raw.githubusercontent.com/<github_user>/<repository>/<target_branch>/<file> , or as github page
       - name: push github-contribution-grid-snake.svg to the output branch
