@@ -34,11 +34,21 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # 生成 GitHub 统计卡片 SVG
+      # 使用 jstrieb/github-stats 生成 GitHub 统计卡片 SVG
+      # 此 Action 直接使用 GitHub API 生成 SVG,不依赖外部服务
       - name: Generate GitHub Stats SVG
+        uses: jstrieb/github-stats@master
+        with:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          EXCLUDED: ""
+          EXCLUDE_FORKED_REPOS: true
+
+      # 将生成的 SVG 移动到 dist 目录
+      - name: Move stats to dist
         run: |
-          curl -o dist/github-stats.svg "https://github-readme-stats.vercel.app/api?username=${{ github.repository_owner }}&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&include_all_commits=true&count_private=true"
-          curl -o dist/top-langs.svg "https://github-readme-stats.vercel.app/api/top-langs/?username=${{ github.repository_owner }}&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000&langs_count=8"
+          cp generated/overview.svg dist/github-stats.svg
+          cp generated/languages.svg dist/top-langs.svg
 
       # push the content of <build_dir> to a branch
       # the content will be available at https://raw.githubusercontent.com/<github_user>/<repository>/<target_branch>/<file> , or as github page
