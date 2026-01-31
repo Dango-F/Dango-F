@@ -39,14 +39,7 @@ jobs:
       - name: Generate GitHub Stats SVG
         uses: cicirello/user-statistician@v1
         with:
-          # 使用自定义颜色实现透明背景和无边框 (仿 Tokyo Night 配色)
-          colors: |
-            bg: #00000000
-            border: #00000000
-            title: #7aa2f7
-            text: #a9b1d6
-            icon: #7aa2f7
-            highlight: #bb9af7
+          colors: tokyonight
           include-title: false
           image-file: dist/github-stats.svg
         env:
