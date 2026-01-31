@@ -13,18 +13,21 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2094F3&center=true&vCenter=true&width=435&lines=Hi+there,+I'm+Dango-F!;Focusing+on+Spatial+Intelligence;Exploring+Embodied+Intelligence" alt="Typing SVG" />
 </a>
 
-<!-- GitHub 统计卡片 - 自动适配明暗主题 -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Dango-F/Dango-F/main/generated/overview.svg#gh-dark-mode-only">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Dango-F/Dango-F/main/generated/overview.svg#gh-light-mode-only">
-  <img alt="GitHub 统计概览" src="https://raw.githubusercontent.com/Dango-F/Dango-F/main/generated/overview.svg">
-</picture>
+<br/>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Dango-F/Dango-F/main/generated/languages.svg#gh-dark-mode-only">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Dango-F/Dango-F/main/generated/languages.svg#gh-light-mode-only">
-  <img alt="最常用的编程语言" src="https://raw.githubusercontent.com/Dango-F/Dango-F/main/generated/languages.svg">
-</picture>
+<!-- GitHub 统计卡片 - 自动适配明暗主题 -->
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Dango-F/Dango-F/main/generated/overview.svg#gh-dark-mode-only">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Dango-F/Dango-F/main/generated/overview.svg#gh-light-mode-only">
+    <img alt="GitHub 统计概览" src="https://raw.githubusercontent.com/Dango-F/Dango-F/main/generated/overview.svg">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Dango-F/Dango-F/main/generated/languages.svg#gh-dark-mode-only">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Dango-F/Dango-F/main/generated/languages.svg#gh-light-mode-only">
+    <img alt="最常用的编程语言" src="https://raw.githubusercontent.com/Dango-F/Dango-F/main/generated/languages.svg">
+  </picture>
+</p>
 
 <!-- 技能徽章区域 -->
 <h3>Tech Stack</h3>
