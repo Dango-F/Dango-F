@@ -13,11 +13,18 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2094F3&center=true&vCenter=true&width=435&lines=Hi+there,+I'm+Dango-F!;Focusing+on+Spatial+Intelligence;Exploring+Embodied+Intelligence" alt="Typing SVG" />
 </a>
 
-<!-- 个人统计卡片 - 使用透明/现代主题 -->
-<div style="display: flex; justify-content: center; gap: 10px;">
-  <img src="https://github-readme-stats.vercel.app/api?username=Dango-F&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000" height="200" alt="stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Dango-F&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000" height="180" alt="languages" />
-</div>
+<!-- GitHub 统计卡片 - 自动适配明暗主题 -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Dango-F/Dango-F/master/generated/overview.svg#gh-dark-mode-only">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Dango-F/Dango-F/master/generated/overview.svg#gh-light-mode-only">
+  <img alt="GitHub 统计概览" src="https://raw.githubusercontent.com/Dango-F/Dango-F/master/generated/overview.svg">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Dango-F/Dango-F/master/generated/languages.svg#gh-dark-mode-only">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Dango-F/Dango-F/master/generated/languages.svg#gh-light-mode-only">
+  <img alt="最常用的编程语言" src="https://raw.githubusercontent.com/Dango-F/Dango-F/master/generated/languages.svg">
+</picture>
 
 <!-- 技能徽章区域 -->
 <h3>Tech Stack</h3>
