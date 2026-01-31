@@ -15,15 +15,15 @@
 
 <!-- GitHub 统计卡片 - 自动适配明暗主题 -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Dango-F/Dango-F/master/generated/overview.svg#gh-dark-mode-only">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Dango-F/Dango-F/master/generated/overview.svg#gh-light-mode-only">
-  <img alt="GitHub 统计概览" src="https://raw.githubusercontent.com/Dango-F/Dango-F/master/generated/overview.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Dango-F/Dango-F/main/generated/overview.svg#gh-dark-mode-only">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Dango-F/Dango-F/main/generated/overview.svg#gh-light-mode-only">
+  <img alt="GitHub 统计概览" src="https://raw.githubusercontent.com/Dango-F/Dango-F/main/generated/overview.svg">
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Dango-F/Dango-F/master/generated/languages.svg#gh-dark-mode-only">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Dango-F/Dango-F/master/generated/languages.svg#gh-light-mode-only">
-  <img alt="最常用的编程语言" src="https://raw.githubusercontent.com/Dango-F/Dango-F/master/generated/languages.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Dango-F/Dango-F/main/generated/languages.svg#gh-dark-mode-only">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Dango-F/Dango-F/main/generated/languages.svg#gh-light-mode-only">
+  <img alt="最常用的编程语言" src="https://raw.githubusercontent.com/Dango-F/Dango-F/main/generated/languages.svg">
 </picture>
 
 <!-- 技能徽章区域 -->
