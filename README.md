@@ -15,8 +15,8 @@
 
 <!-- 个人统计卡片 - 使用透明/现代主题 -->
 <div style="display: flex; justify-content: center; gap: 10px;">
-  <img src="https://github-readme-stats.vercel.app/api?username=Dango-F&show_icons=true&theme=dark&hide_border=true&bg_color=00000000" height="200" alt="stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Dango-F&layout=compact&theme=dark&hide_border=true&bg_color=00000000" height="180" alt="languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Dango-F&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000" height="200" alt="stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Dango-F&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000" height="180" alt="languages" />
 </div>
 
 <!-- 技能徽章区域 -->
