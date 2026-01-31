@@ -14,10 +14,7 @@
 </a>
 
 <!-- 个人统计卡片 - 使用透明/现代主题 -->
-<div style="display: flex; justify-content: center; gap: 10px;">
-  <img src="https://raw.githubusercontent.com/Dango-F/Dango-F/output/github-stats.svg" height="200" alt="stats" />
-  <img src="https://raw.githubusercontent.com/Dango-F/Dango-F/output/top-langs.svg" height="180" alt="languages" />
-</div>
+<img src="https://raw.githubusercontent.com/Dango-F/Dango-F/output/github-stats.svg" alt="GitHub Stats" />
 
 <!-- 技能徽章区域 -->
 <h3>Tech Stack</h3>

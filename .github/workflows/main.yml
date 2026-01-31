@@ -34,21 +34,16 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # 使用 jstrieb/github-stats 生成 GitHub 统计卡片 SVG
+      # 使用 cicirello/user-statistician 生成 GitHub 统计卡片 SVG
       # 此 Action 直接使用 GitHub API 生成 SVG,不依赖外部服务
       - name: Generate GitHub Stats SVG
-        uses: jstrieb/github-stats@master
+        uses: cicirello/user-statistician@v1
         with:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          colors: tokyonight
+          include-title: false
+          image-file: dist/github-stats.svg
+        env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          EXCLUDED: ""
-          EXCLUDE_FORKED_REPOS: true
-
-      # 将生成的 SVG 移动到 dist 目录
-      - name: Move stats to dist
-        run: |
-          cp generated/overview.svg dist/github-stats.svg
-          cp generated/languages.svg dist/top-langs.svg
 
       # push the content of <build_dir> to a branch
       # the content will be available at https://raw.githubusercontent.com/<github_user>/<repository>/<target_branch>/<file> , or as github page
