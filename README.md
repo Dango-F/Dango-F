@@ -19,12 +19,12 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Dango-F/Dango-F/main/generated/overview.svg#gh-dark-mode-only">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Dango-F/Dango-F/main/generated/overview.svg#gh-light-mode-only">
-    <img height="100%" alt="GitHub 统计概览" src="https://raw.githubusercontent.com/Dango-F/Dango-F/main/generated/overview.svg">
+    <img height="110" alt="GitHub 统计概览" src="https://raw.githubusercontent.com/Dango-F/Dango-F/main/generated/overview.svg">
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Dango-F/Dango-F/main/generated/languages.svg#gh-dark-mode-only">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Dango-F/Dango-F/main/generated/languages.svg#gh-light-mode-only">
-    <img height="100%" alt="最常用的编程语言" src="https://raw.githubusercontent.com/Dango-F/Dango-F/main/generated/languages.svg">
+    <img height="110%" alt="最常用的编程语言" src="https://raw.githubusercontent.com/Dango-F/Dango-F/main/generated/languages.svg">
   </picture>
 </p>
 
